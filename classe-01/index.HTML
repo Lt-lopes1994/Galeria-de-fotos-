@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeria fotos</title>
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+  <link
+    href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header class="column">
+    <div class="menu-lateral menu-fechado column">
+      <button class="btn-menu row">
+        <img class="btn-menu-fechado" src="./assets/closed-menu.svg">
+      </button>
+      <button class="btn-menu btn-inicio row">
+        <img src="./assets/active-home.svg">
+        <span class="txt-icone fechado">Início</span>
+      </button>
+      <button class="btn-menu btn-favoritos row">
+        <img src="./assets/inactive-like.svg">
+        <span class="txt-icone fechado">Favoritos</span>
+      </button>
+    </div>
+    <button class="btn-menu btn-congig row">
+      <img src="./assets/inactive-settings.svg">
+      <span class="txt-icone fechado">Configurações</span>
+    </button>
+  </header>
+
+  <div class="main-section column">
+    <h1>Início</h1>
+    <div class="galeria row wrap justify-center ">
+      <div class="item-galeria">
+        <img class="item-like fechado" src="./assets/like.svg" alt="like">
+        <img class='item-imagem' src="./assets/gallery/image 1.png" alt="hamster" data-index="0">
+        <div class="row space-between"><span>Lorem ipsum</span>
+          <span> há 1 mês</span></div>
+      </div>
+      <div class="item-galeria">
+        <img class="item-like fechado" src="./assets/like.svg" alt="like">
+        <img class='item-imagem' src="./assets/gallery/image 2.png" alt="gato" data-index="1">
+        <div class="row space-between"><span>Lorem ipsum</span>
+          <span> há 1 mês</span></div>
+      </div>
+      <div class="item-galeria">
+        <img class="item-like fechado" src="./assets/like.svg" alt="like">
+        <img class='item-imagem' src="./assets/gallery/image 3.png" alt="lobo" data-index="2">
+        <div class="row space-between"><span>Lorem ipsum</span>
+          <span> há 1 mês</span></div>
+      </div>
+      <div class="item-galeria">
+        <img class="item-like fechado" src="./assets/like.svg" alt="like">
+        <img class='item-imagem' src="./assets/gallery/image 4.png" alt="macaco" data-index="3">
+        <div class="row space-between"><span>Lorem ipsum</span>
+          <span> há 1 mês</span></div>
+      </div>
+      <br>
+      <div class="item-galeria">
+        <img class="item-like fechado" src="./assets/like.svg" alt="like">
+        <img class='item-imagem' src="./assets/gallery/image 5.png" alt="borboleta" data-index="4">
+        <div class="row space-between"><span>Lorem ipsum</span>
+          <span> há 1 mês</span></div>
+      </div>
+      <div class="item-galeria">
+        <img class="item-like fechado" src="./assets/like.svg" alt="like">
+        <img class='item-imagem' src="./assets/gallery/image 6.png" alt="onça" data-index="5">
+        <div class="row space-between"><span>Lorem ipsum</span>
+          <span> há 1 mês</span></div>
+      </div>
+      <div class="item-galeria">
+        <img class="item-like fechado" src="./assets/like.svg" alt="like">
+        <img class='item-imagem' src="./assets/gallery/image 7.png" alt="raposa" data-index="6">
+        <div class="row space-between"><span>Lorem ipsum</span>
+          <span> há 1 mês</span></div>
+      </div>
+      <div class="item-galeria">
+        <img class="item-like fechado" src="./assets/like.svg" alt="like">
+        <img class='item-imagem' src="./assets/gallery/image 8.png" alt="raposa branca" data-index="7">
+        <div class="row space-between"><span>Lorem ipsum</span>
+          <span> há 1 mês</span></div>
+      </div>
+      <br>
+      <div class="item-galeria">
+        <img class="item-like fechado" src="./assets/like.svg" alt="like">
+        <img class='item-imagem' src="./assets/gallery/image 9.png" alt="tartaruga" data-index="8">
+        <div class="row space-between"><span>Lorem ipsum</span>
+          <span> há 1 mês</span></div>
+      </div>
+      <div class="item-galeria">
+        <img class="item-like fechado" src="./assets/like.svg" alt="like">
+        <img class='item-imagem' src="./assets/gallery/image 10.png" alt="leão" data-index="9">
+        <div class="row space-between"><span>Lorem ipsum</span>
+          <span> há 1 mês</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fechado row justify-center">
+    <button class='btn-modal fechar'>
+      <img src="./assets/close-modal.svg" alt="">
+    </button>
+    <div class="container-modal">
+      <button class='btn-modal anterior'>
+        <img class="anterior" src="./assets/prev.svg" alt="anterior">
+      </button>
+      <img class="img-modal">
+      <img class="like-modal fechado" src="./assets/like.svg" alt="like">
+      <button class='btn-modal proximo'>
+        <img class="proximo" src="./assets/next.svg" alt="proximo">
+      </button>
+    </div>
+  </div>
+</body>
+
+</html>
